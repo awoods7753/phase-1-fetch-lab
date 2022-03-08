@@ -5,6 +5,7 @@ function fetchBooks() {
   return fetch;
 }
 
+
 function renderBooks(books) {
   const main = document.querySelector('main');
   books.forEach(book => {
